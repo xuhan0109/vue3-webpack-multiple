@@ -1,1 +1,1 @@
-export const moduleName = 'member'
+export const moduleName = 'admin'

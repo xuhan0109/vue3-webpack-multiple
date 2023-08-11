@@ -1,6 +1,6 @@
 import {
   createRouter,
-  createWebHashHistory,
+  createWebHashHistory,createWebHistory
 } from 'vue-router'
 import { routes } from './routes'
 import { moduleName } from '../setting'
