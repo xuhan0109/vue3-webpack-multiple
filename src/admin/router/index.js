@@ -1,26 +1,13 @@
-import { createRouter, createWebHistory } from "vue-router";
-import store from "../store";
-import login from "../views/login";
-
-
-const routes = [
-  {
-    path: "/",
-    name: "login",
-    component: login,
-  },
-  // {
-  //   path: "/client",
-  //   name: "123",
-  //   component: () => import("@/views/webControl/client/client.vue"),
-  //   meta: {},
-  // },
-    
-];
+import {
+  createRouter,
+  createWebHashHistory,
+} from 'vue-router'
+import { routes } from './routes'
+import { moduleName } from '../setting'
 
 const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
+  history: createWebHashHistory(`/${moduleName}`),
   routes,
-});
+})
 
-export default router;
+export default router

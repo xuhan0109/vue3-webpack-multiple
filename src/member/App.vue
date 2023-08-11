@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <!-- <router-view/> -->
-    <Home />
+    <router-view></router-view>
+    <!-- <Home /> -->
   </div>
 </template>
 
@@ -9,10 +9,11 @@
 
 </style>
 <script>
-import Home from '../member/views/Home.vue';
+// import Home from '../member/views/Home.vue';
 export default {
+  name: 'App',
   components: {
-    Home:Home
+    // Home:Home
   },
   data() {
     return {

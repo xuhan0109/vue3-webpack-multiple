@@ -3,7 +3,8 @@
    home
   </div>
 </template>
-<script>
+<script setup>
+
 </script>
 <style lang="sass" scoped>
 
