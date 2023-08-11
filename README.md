@@ -1,4 +1,4 @@
-# vue3-project
+# vue3-webpack-multiple
 
 ## Project setup
 ```
